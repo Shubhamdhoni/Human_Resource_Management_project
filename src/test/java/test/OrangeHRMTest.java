@@ -47,7 +47,7 @@ public class OrangeHRMTest {
     }
 
     @Test(dataProvider = "loginData")
-    public void testLogin(String username, String password) throws IOException {
+    public void testLogin(String username, String password) throws IOException, InterruptedException {
         test = extent.createTest("Login Test with username: " + username);
         
         WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(30));
@@ -59,6 +59,7 @@ public class OrangeHRMTest {
         usernameField.sendKeys(username);
         passwordField.sendKeys(password);
         loginButton.click();
+        Thread.sleep(2000);
 
         // Capture Screenshot
         File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);

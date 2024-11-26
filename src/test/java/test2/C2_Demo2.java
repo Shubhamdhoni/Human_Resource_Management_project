@@ -30,10 +30,6 @@ public class C2_Demo2 {
 		
 		D = new C1_Demo(driver);
 	}
-
-
-
-
 }
 
 
