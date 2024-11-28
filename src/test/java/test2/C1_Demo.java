@@ -20,11 +20,11 @@ public class C1_Demo {
 		driver.findElement(By.xpath("//button[@type='submit']")).click();
 		System.out.println("Login successfully");
 	
-		List<WebElement> menu = driver.findElements(By.xpath("//ul[@class=\"oxd-main-menu\"]"));
+		List<WebElement> menu = driver.findElements(By.xpath("//ul[@class='oxd-main-menu']"));
 		for(WebElement m : menu)
 			System.out.println(m.getText());
 	
-		List<WebElement> rows = driver.findElements(By.xpath("//div[@class=\"oxd-sidepanel-body\"]"));
+		List<WebElement> rows = driver.findElements(By.xpath("//div[@class='oxd-sidepanel-body']"));
 		System.out.println("Total options are :"+ rows.size());//ul[@class=\"oxd-main-menu\"]
 	}
 	

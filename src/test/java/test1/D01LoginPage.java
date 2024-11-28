@@ -3,6 +3,8 @@ package test1;
 import java.io.File;
 import java.io.IOException;
 import java.time.Duration;
+import java.util.Random;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
@@ -23,19 +25,16 @@ public class D01LoginPage {
         driver.findElement(By.xpath("//input[@placeholder='Username']")).sendKeys(us);
         driver.findElement(By.xpath("//input[@placeholder='Password']")).sendKeys(ps);
         driver.findElement(By.xpath("//button[@type='submit']")).click();
-
-        // Wait for the dashboard to load
-        new WebDriverWait(driver, Duration.ofSeconds(10))
-            .until(ExpectedConditions.urlContains("dashboard"));
-
-        // Capture a screenshot
-        File screenshot = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        File screenshotDir = new File("C:\\Screenshot1\\");
-        if (!screenshotDir.exists()) {
-            screenshotDir.mkdirs();
-        }
-        FileHandler.copy(screenshot, new File(screenshotDir, "Screenshot1.jpeg"));
-        System.out.println("Screenshot captured");
+        
+        
+            Thread.sleep(2000);
+            
+            // Capture a screenshot
+            Random rand = new Random();
+      		int rand_int1 = rand.nextInt(1000);
+      		
+      		File file = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
+      		FileHandler.copy(file, new File("./image"+rand_int1+".png"));
 
         // Assert login success
         Assert.assertTrue(driver.getCurrentUrl().contains("dashboard"), "Login failed or URL mismatch.");

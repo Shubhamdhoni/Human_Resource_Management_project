@@ -5,7 +5,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-<title></title>
+<title>OHRM Login Report</title>
 <link rel="apple-touch-icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link rel="shortcut icon" href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@b00a2d0486596e73dd7326beacf352c639623a0e/commons/img/logo.png">
 <link href="https://cdn.jsdelivr.net/gh/extent-framework/extent-github-cdn@d6562a79075e061305ccfdb82f01e5e195e2d307/spark/css/spark-style.css" rel="stylesheet" />
@@ -32,10 +32,10 @@
 </ul>
 <ul class="nav-right">
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary"></span></a>
+<a href="#"><span class="badge badge-primary">OHRM Login Details</span></a>
 </li>
 <li class="m-r-10">
-<a href="#"><span class="badge badge-primary">Nov 26, 2024 11:02:19 AM</span></a>
+<a href="#"><span class="badge badge-primary">Thursday, 11 333, 2024 10:37:23</span></a>
 </li>
 </ul>
 </div>
@@ -66,6 +66,7 @@
 <li class="dropdown">
 <a href="#" class="dropdown-toggle" data-toggle="dropdown"><i class="fa fa-exclamation-circle"></i></a>
 <ul id="status-toggle" class="dropdown-menu dropdown-md p-v-0">
+<a class="dropdown-item" status="pass" href="#"><span>Pass</span><span class="status success"></span></a>
 <a class="dropdown-item" status="fail" href="#"><span>Fail</span><span class="status danger"></span></a>
 <div class="dropdown-divider"></div>
 <a status="clear" class="dropdown-item" href="#"><span>Clear</span><span class="pull-right"><i class="fa fa-close"></i></span></a>
@@ -74,25 +75,25 @@
 </ul>
 </div>    <div class="test-list-wrapper scrollable">
       <ul class="test-list-item">
-        <li class="test-item"  status="fail" test-id="1"
+        <li class="test-item"  status="pass" test-id="1"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Test with username: Admin</p>
+            <p class="name">OHRM Valid Login</p>
             <p class="text-sm">
-              <span>11:02:30 AM</span> / <span>00:00:04:185</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:37:34 AM</span> / <span>00:00:00:016</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Test with username: Admin</h5>
-<span class='badge badge-success'>11.26.2024 11:02:30 AM</span>
-<span class='badge badge-danger'>11.26.2024 11:02:35 AM</span>
-<span class='badge badge-default'>00:00:04:185</span>
+<h5 class="test-status text-pass">OHRM Valid Login</h5>
+<span class='badge badge-success'>11.28.2024 10:37:34 AM</span>
+<span class='badge badge-danger'>11.28.2024 10:37:34 AM</span>
+<span class='badge badge-default'>00:00:00:016</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=1</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -103,10 +104,10 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:02:35 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:37:34 AM</td>
         <td>
-          Login failed as expected for invalid credentials.
+          <span class='badge white-text green'>OHRM Login: Pass</span>
         </td>
       </tr>
   </tbody>
@@ -119,9 +120,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Test with username: Shubham</p>
+            <p class="name">OHRM Invalid Login</p>
             <p class="text-sm">
-              <span>11:02:44 AM</span> / <span>00:00:04:374</span>
+              <span>10:37:47 AM</span> / <span>00:00:00:000</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -129,10 +130,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Test with username: Shubham</h5>
-<span class='badge badge-success'>11.26.2024 11:02:44 AM</span>
-<span class='badge badge-danger'>11.26.2024 11:02:48 AM</span>
-<span class='badge badge-default'>00:00:04:374</span>
+<h5 class="test-status text-fail">OHRM Invalid Login</h5>
+<span class='badge badge-success'>11.28.2024 10:37:47 AM</span>
+<span class='badge badge-danger'>11.28.2024 10:37:47 AM</span>
+<span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=2</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -144,9 +145,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:02:48 AM</td>
+        <td>10:37:47 AM</td>
         <td>
-          Login failed as expected for invalid credentials.
+          <span class='badge white-text red'>OHRM Login: Fail</span>
         </td>
       </tr>
   </tbody>
@@ -159,9 +160,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Test with username: praveen</p>
+            <p class="name">OHRM Invalid Login</p>
             <p class="text-sm">
-              <span>11:02:57 AM</span> / <span>00:00:04:133</span>
+              <span>10:37:57 AM</span> / <span>00:00:00:000</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -169,10 +170,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Test with username: praveen</h5>
-<span class='badge badge-success'>11.26.2024 11:02:57 AM</span>
-<span class='badge badge-danger'>11.26.2024 11:03:01 AM</span>
-<span class='badge badge-default'>00:00:04:133</span>
+<h5 class="test-status text-fail">OHRM Invalid Login</h5>
+<span class='badge badge-success'>11.28.2024 10:37:57 AM</span>
+<span class='badge badge-danger'>11.28.2024 10:37:57 AM</span>
+<span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=3</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -184,9 +185,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:03:01 AM</td>
+        <td>10:37:57 AM</td>
         <td>
-          Login failed as expected for invalid credentials.
+          <span class='badge white-text red'>OHRM Login: Fail</span>
         </td>
       </tr>
   </tbody>
@@ -199,9 +200,9 @@
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Test with username: aditya</p>
+            <p class="name">OHRM Invalid Login</p>
             <p class="text-sm">
-              <span>11:03:10 AM</span> / <span>00:00:03:749</span>
+              <span>10:38:07 AM</span> / <span>00:00:00:000</span>
               <span class="badge fail-bg log float-right">Fail</span>
             </p>
           </div>
@@ -209,10 +210,10 @@
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Test with username: aditya</h5>
-<span class='badge badge-success'>11.26.2024 11:03:10 AM</span>
-<span class='badge badge-danger'>11.26.2024 11:03:14 AM</span>
-<span class='badge badge-default'>00:00:03:749</span>
+<h5 class="test-status text-fail">OHRM Invalid Login</h5>
+<span class='badge badge-success'>11.28.2024 10:38:07 AM</span>
+<span class='badge badge-danger'>11.28.2024 10:38:07 AM</span>
+<span class='badge badge-default'>00:00:00:000</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=4</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -224,9 +225,9 @@
   <tbody>
       <tr class="event-row">
         <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:03:14 AM</td>
+        <td>10:38:07 AM</td>
         <td>
-          Login failed as expected for invalid credentials.
+          <span class='badge white-text red'>OHRM Login: Fail</span>
         </td>
       </tr>
   </tbody>
@@ -234,25 +235,25 @@
 </div>
           </div>
         </li>
-        <li class="test-item"  status="fail" test-id="5"
+        <li class="test-item"  status="pass" test-id="5"
           author=""
           tag=""
           device="">
           <div class="test-detail">
-            <p class="name">Login Test with username: shrishail</p>
+            <p class="name">OHRM Valid Login</p>
             <p class="text-sm">
-              <span>11:03:22 AM</span> / <span>00:00:02:757</span>
-              <span class="badge fail-bg log float-right">Fail</span>
+              <span>10:38:17 AM</span> / <span>00:00:00:001</span>
+              <span class="badge pass-bg log float-right">Pass</span>
             </p>
           </div>
           <div class="test-contents d-none">
 <div class="detail-head">
 <div class="p-v-10">
 <div class="info">
-<h5 class="test-status text-fail">Login Test with username: shrishail</h5>
-<span class='badge badge-success'>11.26.2024 11:03:22 AM</span>
-<span class='badge badge-danger'>11.26.2024 11:03:25 AM</span>
-<span class='badge badge-default'>00:00:02:757</span>
+<h5 class="test-status text-pass">OHRM Valid Login</h5>
+<span class='badge badge-success'>11.28.2024 10:38:17 AM</span>
+<span class='badge badge-danger'>11.28.2024 10:38:17 AM</span>
+<span class='badge badge-default'>00:00:00:001</span>
 &middot; <span class='uri-anchor badge badge-default'>#test-id=5</span>
 <span class='badge badge-default pointer float-right ml-1 et'><i class="fa fa-chevron-down"></i></span>
 <span class='badge badge-default pointer float-right ct'><i class="fa fa-chevron-up"></i></span>
@@ -263,10 +264,10 @@
   <thead><tr><th class="status-col">Status</th><th class="timestamp-col">Timestamp</th><th class="details-col">Details</th></tr></thead>
   <tbody>
       <tr class="event-row">
-        <td><span class="badge log fail-bg">Fail</span></td>
-        <td>11:03:25 AM</td>
+        <td><span class="badge log pass-bg">Pass</span></td>
+        <td>10:38:17 AM</td>
         <td>
-          Login failed as expected for invalid credentials.
+          <span class='badge white-text green'>OHRM Login: Pass</span>
         </td>
       </tr>
   </tbody>
@@ -288,25 +289,25 @@
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Started</p>
-<h3>Nov 26, 2024 11:02:19 AM</h3>
+<h3>Thursday, 11 333, 2024 10:37:23</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0">Ended</p>
-<h3>Nov 26, 2024 11:03:25 AM</h3>
+<h3>Thursday, 11 333, 2024 10:38:20</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-pass">Tests Passed</p>
-<h3>0</h3>
+<h3>2</h3>
 </div></div>
 </div>
 <div class="col-md-3">
 <div class="card"><div class="card-body">
 <p class="m-b-0 text-fail">Tests Failed</p>
-<h3>5</h3>
+<h3>3</h3>
 </div></div>
 </div>
 </div>
@@ -322,12 +323,12 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'>
-<b>0</b> tests passed
+<div><small data-tooltip='40%'>
+<b>2</b> tests passed
 </small>
 </div>
 <div>
-<small data-tooltip='100%'><b>5</b> tests failed,
+<small data-tooltip='60%'><b>3</b> tests failed,
 <b>0</b> skipped, <b data-tooltip='0%'>0</b> others
 </small>
 </div>
@@ -345,9 +346,9 @@
 </div>
 </div>
 <div class="card-footer">
-<div><small data-tooltip='0%'><b>0</b> events passed</small></div>
+<div><small data-tooltip='40%'><b>2</b> events passed</small></div>
 <div>
-<small data-tooltip='100%'><b>5</b> events failed,
+<small data-tooltip='60%'><b>3</b> events failed,
 <b data-tooltip='%'>0</b> others
 </small>
 </div>
@@ -364,17 +365,43 @@
 </div></div>
 <script>
 var timeline = {
-"Login Test with username: Admin":4.185,"Login Test with username: Shubham":4.374,"Login Test with username: praveen":4.133,"Login Test with username: aditya":3.749,"Login Test with username: shrishail":2.757
+"OHRM Valid Login":0.016,"OHRM Invalid Login":0,"OHRM Invalid Login":0,"OHRM Invalid Login":0,"OHRM Valid Login":0.001
 };
 </script>
 <div class="row">
+<div class="col-lg-6 col-md-12 sysenv-container">
+<div class="card">
+<div class="card-header"><p>System/Environment</p></div>
+<div class="card-body pb-0 pt-0"><table class="table table-sm table-bordered">
+<thead><tr class="bg-gray"><th>Name</th><th>Value</th></tr></thead>
+<tbody>
+<tr>
+<td>Machine name:</td>
+<td>Dell</td>
+</tr>
+<tr>
+<td>Tester name:</td>
+<td>Shubham</td>
+</tr>
+<tr>
+<td>OS</td>
+<td>Windows 10 pro</td>
+</tr>
+<tr>
+<td>Browser</td>
+<td>Google Chrome</td>
+</tr>
+</tbody>
+</table></div>
+</div>
+</div>
 </div>
 </div>
 <script>
 var statusGroup = {
 parentCount: 5,
-passParent: 0,
-failParent: 5,
+passParent: 2,
+failParent: 3,
 warningParent: 0,
 skipParent: 0,
 childCount: 5,
@@ -390,8 +417,8 @@ warningGrandChild: 0,
 skipGrandChild: 0,
 infoGrandChild: 0,
 eventsCount: 5,
-passEvents: 0,
-failEvents: 5,
+passEvents: 2,
+failEvents: 3,
 warningEvents: 0,
 skipEvents: 0,
 infoEvents: 0

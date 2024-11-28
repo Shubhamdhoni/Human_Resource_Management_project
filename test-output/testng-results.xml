@@ -1,141 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-26T11:02:19 IST" name="Default suite" finished-at="2024-11-26T11:03:25 IST" duration-ms="66394">
+  <suite started-at="2024-11-28T10:53:46 IST" name="Default suite" finished-at="2024-11-28T10:54:18 IST" duration-ms="31515">
     <groups>
     </groups>
-    <test started-at="2024-11-26T11:02:19 IST" name="Default test" finished-at="2024-11-26T11:03:25 IST" duration-ms="66394">
-      <class name="test.OrangeHRMTest">
-        <test-method is-config="true" signature="setupReport()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:19 IST" name="setupReport" finished-at="2024-11-26T11:02:19 IST" duration-ms="513" status="PASS">
+    <test started-at="2024-11-28T10:53:46 IST" name="Default test" finished-at="2024-11-28T10:54:18 IST" duration-ms="31515">
+      <class name="capestone_project_StarAgile.Client">
+        <test-method is-config="true" signature="beforeTest()[pri:0, instance:capestone_project_StarAgile.Client@229c6181]" started-at="2024-11-28T10:53:46 IST" name="beforeTest" finished-at="2024-11-28T10:53:54 IST" duration-ms="7485" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setupReport -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:21 IST" name="setup" finished-at="2024-11-26T11:02:30 IST" duration-ms="9914" status="PASS">
+        </test-method> <!-- beforeTest -->
+        <test-method signature="testLogin_Adminpage()[pri:0, instance:capestone_project_StarAgile.Client@229c6181]" started-at="2024-11-28T10:53:54 IST" name="testLogin_Adminpage" finished-at="2024-11-28T10:54:17 IST" duration-ms="23439" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:30 IST" name="testLogin" data-provider="loginData" finished-at="2024-11-26T11:02:35 IST" duration-ms="4224" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Admin]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[admin123]]>
-              </value>
-            </param>
-          </params>
+        </test-method> <!-- testLogin_Adminpage -->
+        <test-method is-config="true" signature="afterTest()[pri:0, instance:capestone_project_StarAgile.Client@229c6181]" started-at="2024-11-28T10:54:17 IST" name="afterTest" finished-at="2024-11-28T10:54:18 IST" duration-ms="509" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:35 IST" name="tearDown" finished-at="2024-11-26T11:02:35 IST" duration-ms="278" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:35 IST" name="setup" finished-at="2024-11-26T11:02:44 IST" duration-ms="8572" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:44 IST" name="testLogin" data-provider="loginData" finished-at="2024-11-26T11:02:48 IST" duration-ms="4381" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Shubham]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[dhoni1122]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:48 IST" name="tearDown" finished-at="2024-11-26T11:02:48 IST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:48 IST" name="setup" finished-at="2024-11-26T11:02:57 IST" duration-ms="8627" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:02:57 IST" name="testLogin" data-provider="loginData" finished-at="2024-11-26T11:03:01 IST" duration-ms="4141" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[praveen]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[prv2200]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:01 IST" name="tearDown" finished-at="2024-11-26T11:03:01 IST" duration-ms="242" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:01 IST" name="setup" finished-at="2024-11-26T11:03:10 IST" duration-ms="9042" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:10 IST" name="testLogin" data-provider="loginData" finished-at="2024-11-26T11:03:14 IST" duration-ms="3753" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[aditya]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[adi0099]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:14 IST" name="tearDown" finished-at="2024-11-26T11:03:15 IST" duration-ms="645" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:15 IST" name="setup" finished-at="2024-11-26T11:03:22 IST" duration-ms="7772" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setup -->
-        <test-method signature="testLogin(java.lang.String,java.lang.String)[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:22 IST" name="testLogin" data-provider="loginData" finished-at="2024-11-26T11:03:25 IST" duration-ms="2772" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[shrishail]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[shri4433]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- testLogin -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:25 IST" name="tearDown" finished-at="2024-11-26T11:03:25 IST" duration-ms="247" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="tearDownReport()[pri:0, instance:test.OrangeHRMTest@26d9b808]" started-at="2024-11-26T11:03:25 IST" name="tearDownReport" finished-at="2024-11-26T11:03:26 IST" duration-ms="411" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDownReport -->
-      </class> <!-- test.OrangeHRMTest -->
+        </test-method> <!-- afterTest -->
+      </class> <!-- capestone_project_StarAgile.Client -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
